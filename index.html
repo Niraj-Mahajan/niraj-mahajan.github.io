@@ -6,82 +6,125 @@
   <title>Niraj Mahajan | Portfolio</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      background: #f4f7f6;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f5f2;
       color: #333;
-      line-height: 1.6;
     }
+
     header {
-      background: #4A90E2;
-      color: white;
-      padding: 40px 20px;
+      background: url('76d31e0c-ed6b-46a5-806f-48ecdb335d69.png') no-repeat center center;
+      background-size: cover;
       text-align: center;
+      padding: 80px 20px;
+      position: relative;
     }
-    header h1 {
+
+    header img {
+      border-radius: 50%;
+      width: 120px;
+      border: 4px solid #fff;
+      margin-bottom: 15px;
+    }
+
+    h1 {
       margin: 0;
-      font-size: 2.8em;
+      font-size: 2rem;
+      letter-spacing: 2px;
     }
-    header h2 {
+
+    h2 {
+      margin-top: 5px;
       font-weight: normal;
-      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #555;
     }
+
     section {
-      padding: 30px 20px;
-      max-width: 900px;
-      margin: auto;
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 0 20px;
     }
-    h3 {
-      color: #4A90E2;
-      margin-top: 40px;
+
+    section h3 {
+      font-size: 1.4rem;
+      margin-bottom: 15px;
+      color: #444;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
     }
-    ul {
-      list-style-type: circle;
-      padding-left: 20px;
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
     }
-    a {
-      color: #4A90E2;
+
+    .skills li {
+      background: #e6dfd7;
+      color: #333;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-right: 15px;
+      color: #333;
       text-decoration: none;
     }
-    .footer {
+
+    footer {
       text-align: center;
+      font-size: 0.9rem;
       padding: 20px;
-      font-size: 0.9em;
-      background-color: #e0e0e0;
-      margin-top: 40px;
+      color: #999;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Niraj Mahajan</h1>
+    <img src="niraj-photo.jpg" alt="Niraj Mahajan">
+    <h1>NIRAJ MAHAJAN</h1>
     <h2>System Engineer at Tata Consultancy Services</h2>
   </header>
 
   <section>
     <h3>About Me</h3>
     <p>
-      I am a passionate and growth-oriented software professional with 2 years of experience in the IT industry. I'm currently focusing on Java development and continuously learning to build impactful applications. Outside of work, I enjoy cooking, exploring new technologies, and constantly pushing myself to grow both professionally and personally.
+      I'm a passionate technology enthusiast working as a System Engineer at TCS. I enjoy building scalable solutions and continuously improving my skillset. Apart from tech, I love experimenting in the kitchen — cooking is one of my favorite creative outlets.
     </p>
-
-    <h3>Skills</h3>
-    <ul>
-      <li>Java (Core)</li>
-      <li>HTML & CSS</li>
-      <li>JavaScript (Basics)</li>
-      <li>Git & GitHub</li>
-      <li>Problem Solving</li>
-      <li>Communication & Collaboration</li>
-    </ul>
-
-    <h3>Contact</h3>
-    <p>Email: <a href="mailto:nirajmahajan.in@gmail.com">nirajmahajan.in@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/nirajsmahajan" target="_blank">linkedin.com/in/nirajsmahajan</a></p>
-    <p>GitHub: <a href="https://github.com/Niraj-Mahajan" target="_blank">github.com/Niraj-Mahajan</a></p>
   </section>
 
-  <div class="footer">
-    © 2025 Niraj Mahajan. All rights reserved.
-  </div>
+  <section class="skills">
+    <h3>Skills</h3>
+    <ul>
+      <li>Linux</li>
+      <li>Bash Scripting</li>
+      <li>Java</li>
+      <li>HTML & CSS</li>
+      <li>Git & GitHub</li>
+      <li>Problem Solving</li>
+      <li>Monitoring Tools</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h3>Contact</h3>
+    <p>Email: <a href="mailto:nirajmahajan.in@gmail.com">nirajmahajan.in@gmail.com</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/nirajsmahajan" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/Niraj-Mahajan" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Niraj Mahajan
+  </footer>
+
 </body>
 </html>
